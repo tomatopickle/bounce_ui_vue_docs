@@ -1,0 +1,114 @@
+:root {
+    --c-brand: #286EF1;
+    --c-brand-light: #105eef;
+    --c-bg: #f9f9f9;
+    --c-bg-light: #fff;
+    --c-bg-lighter: #fff;
+    --c-bg-navbar: hsla(0, 0%, 100%, .95);
+    --c-danger: #ff4d4d !important;
+    --c-tip: #46C93A !important;
+    --code-bg-color: #383838d1 !important;
+    --demoblock-control-bg: var(--c-bg-light) !important;
+    --demoblock-control-bg-hover: var(--c-bg-lighter) !important;
+    --demoblock-border: #d9d9d9 !important;
+}
+
+html.dark {
+    --c-brand: #286EF1;
+    --c-brand-light: #105eef;
+    --c-bg: #121214;
+    --c-bg-light: rgb(35 35 39);
+    --c-bg-lighter: #2a2a2f;
+    --c-bg-navbar: rgba(35, 35, 39, .95);
+    --c-text: #ffffff;
+    --demoblock-border: #49494a !important;
+}
+
+.navbar {
+    backdrop-filter: blur(20px);
+}
+
+.sidebar {
+    --c-bg-sidebar: var(--c-bg-light);
+}
+
+.home .hero .action-button.primary {
+    color: white;
+}
+
+.home .hero .action-button {
+    border-radius: 7px;
+}
+
+.home .hero .action-button.secondary {
+    background-color: var(--c-bg-light);
+
+}
+
+.home .hero .action-button:hover {
+    color: white !important;
+}
+
+.home .hero .action-button:focus {
+    box-shadow: 0 0 0 4px #a0bff9;
+}
+
+.dark .home .hero .action-button:focus {
+    box-shadow: 0 0 0 4px #093890;
+}
+
+.demo-block {
+    background-color: var(--c-bg-light) !important;
+    border-radius: 7px;
+    ;
+}
+
+.demo-block:hover {
+    box-shadow: none !important;
+}
+
+.center {
+    margin: auto;
+    display: block;
+    width: max-content;
+}
+
+.search-box {
+    --search-border-color: #d1d5db !important;
+}
+
+.search-box input {
+    border-radius: 7px !important;
+    border: 2px solid var(--search-border-color) !important;
+    background-position-y: 6px !important;
+    background-position-x: 7px !important;
+    transition: .15s all !important;
+}
+
+.search-box input:focus {
+    --search-border-color: #286ef1;
+    box-shadow: 0 0 0 3px #a0bff9;
+}
+
+.search-box input:hover:not(:focus) {
+    --search-border-color: #a6aeb9 !important;
+}
+
+.dark .search-box {
+    --search-border-color: #4a4a4a !important;
+}
+
+.dark .search-box input:focus {
+    --search-border-color: #0d4bc0;
+    box-shadow: 0 0 0 3px #3274f2;
+}
+
+.copy-button {
+    padding: 7px !important;
+    transition: all .15s;
+}
+
+.copy-button:hover {
+    background-color: #286ef142;
+    border-radius: 7px;
+}
