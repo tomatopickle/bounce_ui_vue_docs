@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "npm run build && npx gh-pages docs/.vuepress/dist"
   },
   "devDependencies": {
     "@vuepress/plugin-search": "^2.0.0-beta.27",
