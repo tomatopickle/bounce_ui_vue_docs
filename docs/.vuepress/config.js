@@ -1,3 +1,18 @@
+const locales = {
+  '/': {
+    'hide-text': 'Hide',
+    'show-text': 'Expand',
+    'copy-button-text': 'Copy',
+    'copy-success-text': 'Copy success'
+  },
+  '/zh': {
+    'hide-text': '隐藏代码',
+    'show-text': '显示代码',
+    'copy-button-text': '复制代码片段',
+    'copy-success-text': '复制成功'
+  }
+}
+
 module.exports = {
   title: "Bounce UI",
   base: "/bounce_ui_vue_docs/",
@@ -6,7 +21,7 @@ module.exports = {
       "link",
       {
         rel: "stylesheet",
-        href: "/dist/bounce_ui.css",
+        href: "/bounce_ui_vue_docs/dist/bounce_ui.css",
       },
     ],
     [
@@ -87,7 +102,7 @@ module.exports = {
     ],
   },
   plugins: [
-    ["vuepress-plugin-demoblock-plus"],
+    ["vuepress-plugin-demoblock-plus", { locales }],
     [
       "@vuepress/plugin-search",
       {
