@@ -13,7 +13,7 @@ next:
 The npm package for Bounce UI Vue will be released soon
 :::
 
-First, download the<a download href="/dist/bounce_ui.umd.js"> umd file</a> and the <a download href="/dist/bounce_ui.css">css file</a> for Bounce UI.
+First, download the <a download :href="$withBase('/dist/bounce_ui.umd.js')">umd file</a> and the <a download :href="$withBase('/dist/bounce_ui.css')">css file</a> for Bounce UI.
 
 Here is some example code to get you started, assuming you've saved the files in a dist folder
 
@@ -45,4 +45,4 @@ Here is some example code to get you started, assuming you've saved the files in
 </html>
 ```
 
-All set up? Check out [Components](/components/)
+All set up? Check out [Components](/bounce_ui_vue_docs/components/)

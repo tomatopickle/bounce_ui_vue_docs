@@ -1,6 +1,6 @@
 # Modal
 
-A modal is an overlay that requires the user to interact with it and is designed to elicit a response from the user. It basically uses the [card](/components/Card) element to show the interface.
+A modal is an overlay that requires the user to interact with it and is designed to elicit a response from the user. It basically uses the [card](/bounce_ui_vue_docs/components/Card) element to show the interface.
 
 ## Default
 
@@ -98,7 +98,7 @@ export default{
 
 ## Glass
 
-If you're modal is just a dialog, which means you just want to give a message to you're user, you can use the [glass](/components/Card#glass) attribute and [floating footer](/components/Card#floating-footer) slot to make a nice looking dialog.
+If you're modal is just a dialog, which means you just want to give a message to you're user, you can use the [glass](/bounce_ui_vue_docs/components/Card#glass) attribute and [floating footer](/bounce_ui_vue_docs/components/Card#floating-footer) slot to make a nice looking dialog.
 
 ::: demo
 ```vue

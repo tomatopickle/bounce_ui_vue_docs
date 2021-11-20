@@ -36,7 +36,7 @@ The tabs component has two attributes, `v-model` which gives you the index of th
 
 ## With Icons
 
-Tab's can also have icons, this uses [icon](/components/icon) component.
+Tab's can also have icons, this uses [icon](/bounce_ui_vue_docs/components/icon) component.
 
 ::: demo
 ```vue

@@ -1,6 +1,6 @@
 # Sidebar <Badge text="alpha" type="danger"></Badge>
 
-Sidebars are elements that are in the left or right side of an application. For now, you can only use sidebars inside the prepend and append slots of the [App](/components/app) component.
+Sidebars are elements that are in the left or right side of an application. For now, you can only use sidebars inside the prepend and append slots of the [App](/bounce_ui_vue_docs/components/app) component.
 
 ::: demo
 ```vue
