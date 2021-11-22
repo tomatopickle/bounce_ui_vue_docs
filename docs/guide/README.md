@@ -15,7 +15,7 @@ The npm package for Bounce UI Vue will be released soon
 
 First, download the <a download :href="$withBase('/dist/bounce_ui.umd.js')">umd file</a> and the <a download :href="$withBase('/dist/bounce_ui.css')">css file</a> for Bounce UI.
 
-Here is some example code to get you started, assuming you've saved the files in a dist folder
+Here is some example code to get you started, no download required!
 
 ```html
 <!DOCTYPE html>
@@ -23,26 +23,43 @@ Here is some example code to get you started, assuming you've saved the files in
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.4.95/css/materialdesignicons.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="./dist/bounce_ui.css">
+      <link rel="stylesheet" href="https://tomatopickle.github.io/bounce_ui_vue_docs/dist/bounce_ui.css">
       <title>Bounce UI</title>
    </head>
    <body>
       <div id="app">
          <b-app>
             <b-container>
-               <h1>Bounce UI ready!</h1>
+               <h1>{{heading}}</h1>
                <br>
                <b-btn @click="$toggleTheme()" color="primary">Toggle Theme</b-btn>
+               <br><br>
+               <b-input v-model="heading"></b-input>
             </b-container>
          </b-app>
       </div>
    </body>
    <script src="https://unpkg.com/vue@next"></script>
-   <script defer src="./dist/bounce_ui.umd.min.js"></script>
-   <script defer src="script.js"></script>
+   <script src="https://tomatopickle.github.io/bounce_ui_vue_docs/dist/bounce_ui.umd.min.js"></script>
+   <script defer>
+      const App = {
+        data() {
+          return {
+            heading:"Bounce UI ready!"
+          }
+        }
+      }
+      
+      const app = Vue.createApp(App);
+      app.use(bounce_ui.default);
+      app.mount('#app');
+   </script>
 </html>
 ```
+
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@AbaanShanid/Bounce-UI-Demo?embed=true"></iframe>
 
 All set up? Check out [Components](/bounce_ui_vue_docs/components/)
