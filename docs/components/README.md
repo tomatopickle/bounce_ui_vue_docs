@@ -151,6 +151,16 @@
   </div>
 </b-card>
 </RouterLink>
+<RouterLink to="/components/Divider"  class="col">
+<b-card class="component_card col">
+  <template v-slot:header>
+  Divider
+  </template>
+  <div class="component" style="width:100%">
+   A divider is typically a thin line that separates lists or groups of content.
+  </div>
+</b-card>
+</RouterLink>
 
 </div>
  

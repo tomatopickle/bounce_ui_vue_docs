@@ -59,6 +59,6 @@ Here is some example code to get you started, no download required!
    </script>
 </html>
 ```
-Fork this example [here](https://replit.com/@AbaanShanid/Bounce-UI-Demo)
+View and fork this example [here](https://replit.com/@AbaanShanid/Bounce-UI-Demo)
 
 All set up? Check out [Components](/bounce_ui_vue_docs/components/)

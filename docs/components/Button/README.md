@@ -128,16 +128,22 @@ Adding an icon to a button makes the button more prominent. To position the icon
 
 Buttons can be made round by adding the `circle` attribute. Using this with the [icon](#icons) attribute will give you a FAB (Floating action button). This attribute can also be used with a normal button. 
 
+::: tip
+
+If you're creating a FAB, make sure the `b-icon` component has at least `25px` height.
+
+:::
+
 :::demo
 
 ```vue
 <template>
 <div class="center">
   <b-btn circle icon>
-    <b-icon height="25px" name="brightness-6"></b-icon>
+    <b-icon size="25px" name="mdi mdi-brightness-6"></b-icon>
   </b-btn>
   <b-btn bounce circle color="primary" icon>
-    <b-icon height="25px" name="play" fill="white"></b-icon>
+    <b-icon size="25px" name="mdi mdi-play" fill="white"></b-icon>
   </b-btn>
   <b-btn circle color="success" ghost>
     Save

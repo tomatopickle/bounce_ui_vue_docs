@@ -1,4 +1,4 @@
-# Input <Badge text="Beta" type="warning"></Badge>
+# Input
 
 Input controls are interactive elements of an app. It allows users to enter the information.
 
@@ -14,7 +14,7 @@ Input controls are interactive elements of an app. It allows users to enter the 
 ```
 :::
 
-## Ghost <Badge text="Unstable" type="danger"></Badge>
+## Ghost
 
 If you want a little more subtle input, use the `ghost` attribute.
 
