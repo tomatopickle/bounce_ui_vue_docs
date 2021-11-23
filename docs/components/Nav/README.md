@@ -16,14 +16,14 @@ A Navbar is a horizontal bar on the top of an application. It as relevant links,
         <template v-slot:main>
           <b-input placeholder="Search" id="search_input">
             <template v-slot:inner-prepend>
-              <b-icon name="magnify"></b-icon>
+              <b-icon name="mdi mdi-magnify"></b-icon>
             </template>
           </b-input>
         </template>
         <template v-slot:actions>
           <b-btn class="mx-1" color="primary">
           New Design
-          <b-icon right name="plus"></b-icon>
+          <b-icon right name="mdi mdi-plus"></b-icon>
           </b-btn>
         </template>
       </b-nav>

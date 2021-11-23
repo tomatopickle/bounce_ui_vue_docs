@@ -15,13 +15,13 @@ A modal is an overlay that requires the user to interact with it and is designed
         <h1>Login</h1>
         <b-spacer></b-spacer>
         <b-btn @click="modal = false" ghost icon
-          ><b-icon name="close"></b-icon
+          ><b-icon name="mdi mdi-close"></b-icon
         ></b-btn>
       </b-flex>
       <p>
         <b-input ghost label="User Name" placeholder="User Name">
           <template v-slot:inner-prepend>
-            <b-icon name="account"></b-icon>
+            <b-icon name="mdi mdi-account"></b-icon>
           </template>
         </b-input>
         <b-input
@@ -32,7 +32,7 @@ A modal is an overlay that requires the user to interact with it and is designed
           label="Password "
         >
           <template v-slot:inner-prepend>
-            <b-icon name="lock"></b-icon>
+            <b-icon name="mdi mdi-lock"></b-icon>
           </template>
         </b-input>
       </p>

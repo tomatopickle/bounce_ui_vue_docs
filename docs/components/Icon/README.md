@@ -20,7 +20,7 @@ After that, just specify the name of the icon with the `name` attribute. Here's 
 ```vue
 <template>
 <div class="center">
-  <b-icon name="play"></b-icon>
+  <b-icon name="mdi mdi-play"></b-icon>
 </div>
 </template>
 ```

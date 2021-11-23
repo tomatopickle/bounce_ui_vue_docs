@@ -75,23 +75,23 @@ Add the `icon` attribute to get an icon button, make sure you don't have text in
 <template>
 <div class="center">
   <b-btn icon ghost >
-     <b-icon name="brightness-6"></b-icon>
+     <b-icon name="mdi mdi-brightness-6"></b-icon>
   </b-btn>
   <b-btn color="danger" icon ghost>
-     <b-icon name="delete"></b-icon>
+     <b-icon name="mdi mdi-delete"></b-icon>
   </b-btn>
   <b-btn color="success" icon ghost ripple >
-     <b-icon name="content-save">
+     <b-icon name="mdi mdi-content-save">
      </b-icon>
   </b-btn>
   <b-btn color="primary" icon ghost bounce>
-     <b-icon name="play"></b-icon>
+     <b-icon name="mdi mdi-play"></b-icon>
   </b-btn>
   <b-btn color="success" icon outline>
-     <b-icon name="check"></b-icon >
+     <b-icon name="mdi mdi-check"></b-icon >
   </b-btn>
   <b-btn color="primary" icon>
-     <b-icon name="bluetooth"></b-icon>
+     <b-icon name="mdi mdi-bluetooth"></b-icon>
   </b-btn>
 </div>
 </template>
@@ -109,15 +109,15 @@ Adding an icon to a button makes the button more prominent. To position the icon
 <div class="center">
   <b-btn color="primary">
     Run
-    <b-icon right name="play" fill="white"></b-icon>
+    <b-icon right name="mdi mdi-play" fill="white"></b-icon>
   </b-btn>
   <b-btn color="success" ghost>
     Save
-    <b-icon left name="content-save"></b-icon>
+    <b-icon left name="mdi mdi-content-save"></b-icon>
   </b-btn>
   <b-btn outline color="danger">
     Delete
-    <b-icon left name="delete"></b-icon>
+    <b-icon left name="mdi mdi-delete"></b-icon>
   </b-btn>
   </div>
 </template>
@@ -141,11 +141,11 @@ Buttons can be made round by adding the `circle` attribute. Using this with the 
   </b-btn>
   <b-btn circle color="success" ghost>
     Save
-    <b-icon left name="content-save"></b-icon>
+    <b-icon left name="mdi mdi-content-save"></b-icon>
   </b-btn>
   <b-btn circle outline color="danger">
     Delete
-    <b-icon left name="delete"></b-icon>
+    <b-icon left name="mdi mdi-delete"></b-icon>
   </b-btn>
   </div>
 </template>
@@ -170,7 +170,7 @@ If you have content below you're button, you can add the `glass` attribute to ma
       <b-flex>
         <b-spacer></b-spacer>
         <b-btn glass size="medium" class="mx-1" color="primary"
-          >Read More <b-icon right name="chevron-right"></b-icon
+          >Read More <b-icon right name="mdi mdi-chevron-right"></b-icon
         ></b-btn>
       </b-flex>
     </template>

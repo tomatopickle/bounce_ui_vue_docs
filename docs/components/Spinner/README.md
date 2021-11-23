@@ -51,7 +51,7 @@ If you want to show a card loading, add the `loading` attribute to the card.
        <b-spacer></b-spacer>
        <b-btn color="primary" size="small">
        Read More
-       <b-icon right name="chevron-right"></b-icon>
+       <b-icon right name="mdi mdi-chevron-right"></b-icon>
        </b-btn>
      </b-flex>
      </template>

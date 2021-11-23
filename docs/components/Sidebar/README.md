@@ -18,7 +18,7 @@ Sidebars are elements that are in the left or right side of an application. For 
                 <h3>Database Info</h3>
                 <b-spacer></b-spacer>
                 <b-btn @click="sidebar = false" ghost icon
-                  ><b-icon name="close"></b-icon
+                  ><b-icon name="mdi mdi-close"></b-icon
                 ></b-btn>
               </b-flex>
             </template>

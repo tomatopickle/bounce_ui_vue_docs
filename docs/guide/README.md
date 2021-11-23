@@ -59,7 +59,6 @@ Here is some example code to get you started, no download required!
    </script>
 </html>
 ```
-
-<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@AbaanShanid/Bounce-UI-Demo?embed=true"></iframe>
+Fork this example [here](https://replit.com/@AbaanShanid/Bounce-UI-Demo)
 
 All set up? Check out [Components](/bounce_ui_vue_docs/components/)

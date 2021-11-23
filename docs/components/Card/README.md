@@ -20,7 +20,7 @@ A card can contain almost anything you want, so we've made the usage of cards as
        <b-spacer></b-spacer>
        <b-btn color="primary" size="small">
        Read More
-       <b-icon right name="chevron-right"></b-icon>
+       <b-icon right name="mdi mdi-chevron-right"></b-icon>
        </b-btn>
      </b-flex>
      </template>
@@ -45,7 +45,7 @@ If you have an image that you want to show with the card, you can use the `glass
           <template v-slot:footer>
               <b-flex>
                   <b-spacer></b-spacer>
-                  <b-btn glass size="medium" color="primary">Read More <b-icon right name="chevron-right"></b-icon></b-btn>
+                  <b-btn glass size="medium" color="primary">Read More <b-icon right name="mdi mdi-chevron-right"></b-icon></b-btn>
               </b-flex>
           </template>
       </b-card>
@@ -69,7 +69,7 @@ If you want to indicate that the card is loading, just add the `loading` attribu
               <p>
                 <b-input circle ghost label="User Name" placeholder="User Name">
                   <template v-slot:inner-prepend>
-                    <b-icon name="account"></b-icon>
+                    <b-icon name="mdi mdi-account"></b-icon>
                   </template>
                 </b-input>
                 <b-input
@@ -81,7 +81,7 @@ If you want to indicate that the card is loading, just add the `loading` attribu
                   placeholder="Password"
                 >
                   <template v-slot:inner-prepend>
-                    <b-icon name="lock"></b-icon>
+                    <b-icon name="mdi mdi-lock"></b-icon>
                   </template>
                 </b-input>
               </p>
@@ -125,7 +125,7 @@ We also have a `floating` slot which gives a floating footer, it can be used for
           ><b-icon  name="close"></b-icon
         ></b-btn>
         <b-btn class="mx-1" icon outline color="success"
-          ><b-icon name="check"></b-icon
+          ><b-icon name="mdi mdi-check"></b-icon
         ></b-btn>
       </template>
     </b-card>

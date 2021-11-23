@@ -57,25 +57,25 @@ You can add icons in multiple places of the input. Although it's recommended to 
   <b-flex>
     <b-input placeholder="Search">
       <template v-slot:prepend>
-        <b-icon name="magnify">
+        <b-icon name="mdi mdi-magnify">
         </b-icon>
       </template>
     </b-input>
     <b-input placeholder="Search">
       <template v-slot:append>
-        <b-icon name="magnify">
+        <b-icon name="mdi mdi-magnify">
         </b-icon>
       </template>
     </b-input>
     <b-input placeholder="Search">
       <template v-slot:inner-prepend>
-        <b-icon name="magnify">
+        <b-icon name="mdi mdi-magnify">
         </b-icon>
       </template>
     </b-input>
     <b-input placeholder="Search">
       <template v-slot:inner-append>
-        <b-icon name="magnify">
+        <b-icon name="mdi mdi-magnify">
         </b-icon>
       </template>
     </b-input>
@@ -85,25 +85,25 @@ You can add icons in multiple places of the input. Although it's recommended to 
     <b-flex>
       <b-input ghost placeholder="Search">
         <template v-slot:prepend>
-          <b-icon name="magnify">
+          <b-icon name="mdi mdi-magnify">
           </b-icon>
         </template>
       </b-input>
       <b-input ghost placeholder="Search">
         <template v-slot:append>
-          <b-icon name="magnify">
+          <b-icon name="mdi mdi-magnify">
           </b-icon>
         </template>
       </b-input>
       <b-input ghost placeholder="Search">
         <template v-slot:inner-prepend>
-          <b-icon name="magnify">
+          <b-icon name="mdi mdi-magnify">
           </b-icon>
         </template>
       </b-input>
       <b-input ghost placeholder="Search">
         <template v-slot:inner-append>
-          <b-icon name="magnify">
+          <b-icon name="mdi mdi-magnify">
           </b-icon>
         </template>
       </b-input>
