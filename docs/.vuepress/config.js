@@ -3,7 +3,7 @@ const locales = {
     'hide-text': 'Hide',
     'show-text': 'Expand',
     'copy-button-text': 'Copy',
-    'copy-success-text': 'Copy success'
+    'copy-success-text': 'Code Copied'
   },
   '/zh': {
     'hide-text': '隐藏代码',

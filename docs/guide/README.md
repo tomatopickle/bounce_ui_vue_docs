@@ -26,7 +26,7 @@ Here is some example code to get you started, no download required!
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://tomatopickle.github.io/bounce_ui_vue_docs/dist/bounce_ui.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bounce-ui-vue@latest/dist/bounce_ui.css">
       <title>Bounce UI</title>
    </head>
    <body>
@@ -43,7 +43,7 @@ Here is some example code to get you started, no download required!
       </div>
    </body>
    <script src="https://unpkg.com/vue@next"></script>
-   <script src="https://tomatopickle.github.io/bounce_ui_vue_docs/dist/bounce_ui.umd.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bounce-ui-vue@latest/dist/bounce_ui.umd.min.js"></script>
    <script defer>
       const App = {
         data() {

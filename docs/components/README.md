@@ -28,7 +28,7 @@
 
 ## Form
 <br>
-<div class="grid-4_sm-1_md-2">
+<div class="grid-2_sm-1_md-2">
 <RouterLink to="/components/Input">
   <b-card class="component_card col">
     <template v-slot:header>
@@ -36,6 +36,16 @@
     </template>
     <div class="component">
       <b-input placeholder="Input"></b-input>
+    </div>
+  </b-card>
+</RouterLink>
+<RouterLink to="/components/Textarea" style="margin-left: 10px;">
+  <b-card class="component_card col">
+    <template v-slot:header>
+    Textarea
+    </template>
+    <div class="component">
+      <b-Textarea placeholder="Textarea"></b-Textarea>
     </div>
   </b-card>
 </RouterLink>

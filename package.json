@@ -13,7 +13,7 @@
   "devDependencies": {
     "@vuepress/plugin-search": "^2.0.0-beta.27",
     "vuepress": "^2.0.0-beta.27",
-    "vuepress-plugin-demoblock-plus": "^1.4.1"
+    "vuepress-plugin-demoblock-plus": "^1.5.0"
   },
   "dependencies": {}
 }

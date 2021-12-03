@@ -113,10 +113,6 @@ html.dark {
     border-radius: 7px;
 }
 
-.shiki {
-    background-color: rgb(255, 255, 255) !important;
-}
-
-div[class*=language-] pre {
-    background-color: rgb(255, 255, 255) !important;
+html:not(.dark) pre.shiki {
+    background-color: var(--shiki-color-background) !important;
 }
