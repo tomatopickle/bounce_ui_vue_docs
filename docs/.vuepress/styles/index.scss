@@ -7,7 +7,7 @@
     --c-bg-navbar: hsla(0, 0%, 100%, .95);
     --c-danger: #ff4d4d !important;
     --c-tip: #46C93A !important;
-    --code-bg-color: #383838d1 !important;
+    --code-bg-color: #fff !important;
     --demoblock-control-bg: var(--c-bg-light) !important;
     --demoblock-control-bg-hover: var(--c-bg-lighter) !important;
     --demoblock-border: #d9d9d9 !important;
@@ -21,6 +21,7 @@ html.dark {
     --c-bg-lighter: #2a2a2f;
     --c-bg-navbar: rgba(35, 35, 39, .95);
     --c-text: #ffffff;
+    --code-bg-color: #383838d1 !important;
     --demoblock-border: #49494a !important;
 }
 
@@ -60,7 +61,6 @@ html.dark {
 .demo-block {
     background-color: var(--c-bg-light) !important;
     border-radius: 7px;
-    ;
 }
 
 .demo-block:hover {
@@ -115,4 +115,7 @@ html.dark {
 
 html:not(.dark) pre.shiki {
     background-color: var(--shiki-color-background) !important;
+}
+html:not(.dark){
+    --code-bg-color : white
 }
