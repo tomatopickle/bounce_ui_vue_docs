@@ -61,4 +61,4 @@ Here is some example code to get you started, no download required!
 ```
 View and fork this example [here](https://replit.com/@AbaanShanid/Bounce-UI-Demo)
 
-All set up? Check out [Components](./bounce_ui_vue_docs/components/)
+All set up? Check out [Components](../bounce_ui_vue_docs/components/)
