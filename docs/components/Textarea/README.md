@@ -2,7 +2,7 @@
 
 Textareas are used to give multiline inputs.
 
-**Note** : This has the same attributes as the [b-input](../Input) component.
+**Note**: This has the same attributes as the [b-input](../Input) component.
 
 ## Default
 
@@ -13,5 +13,7 @@ Textareas are used to give multiline inputs.
   <b-textarea placeholder="Normal"></b-textarea>
   <br>
   <b-textarea ghost placeholder="Ghost"></b-textarea>
+  <br>
+  <b-textarea transparent placeholder="Transparent"></b-textarea>
 </div>
 </template>

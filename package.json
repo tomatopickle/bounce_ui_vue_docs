@@ -2,7 +2,6 @@
   "name": "bounce_ui_docs",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "tomatopickle <abaanashanid@gmail.com>",
   "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress dev docs",

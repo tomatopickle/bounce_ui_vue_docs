@@ -53,7 +53,6 @@ export default{
 <style>
 /* To simulate default styles */
 .b-app{
-  background-color: var(--c-bg);
   padding: 5px;
   width:100%;
 

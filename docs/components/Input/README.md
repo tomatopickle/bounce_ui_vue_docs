@@ -38,7 +38,33 @@ To have enough contrast, this attribute has a slight difference in styles when i
 <style>
 /* To show ghost input styles outside a card */
 #body{
-  background-color: var(--c-bg);
+  padding: 5px;
+  border-radius: 7px;
+}
+</style>
+```
+:::
+
+## Transparent
+
+Transparent inputs have the least prominence, add the `transparent` attribute to make an input transparent.
+
+::: demo
+```vue
+<template>
+<div class="center">
+  <div id="body">
+    <b-input transparent placeholder="Normal Ghost Input"></b-input>
+  </div>
+  <br>
+  <b-card>
+  <b-input transparent placeholder="Inside a Card Ghost Input"></b-input>
+  </b-card>
+</div>
+</template>
+<style>
+/* To show ghost input styles outside a card */
+#body{
   padding: 5px;
   border-radius: 7px;
 }
@@ -118,7 +144,6 @@ You can add icons in multiple places of the input. Although it's recommended to 
 }
 /* To show ghost input styles outside a card */
 #body{
-  background-color: var(--c-bg);
   padding: 5px;
   border-radius: 7px;
 }
@@ -148,7 +173,6 @@ Inputs can also be circular, just add the `circle` attribute. Again please try m
 <style>
 /* To show ghost input styles outside a card */
 #body{
-  background-color: var(--c-bg);
   padding: 5px;
   border-radius: 7px;
 }

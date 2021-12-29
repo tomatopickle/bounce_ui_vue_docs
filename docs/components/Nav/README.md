@@ -34,7 +34,6 @@ A Navbar is a horizontal bar on the top of an application. It as relevant links,
 /* To simulate default styles */
 .center{
   width:100%;
-  background-color: var(--c-bg);
 }
 h2{
   border:none;

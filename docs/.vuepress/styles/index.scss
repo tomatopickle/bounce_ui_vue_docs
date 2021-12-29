@@ -119,3 +119,6 @@ html:not(.dark) pre.shiki {
 html:not(.dark){
     --code-bg-color : white
 }
+.source{
+    background-color: var(--c-bg);
+}

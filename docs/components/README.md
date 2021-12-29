@@ -1,6 +1,7 @@
 # Components
 
 ## Controls
+
 <br>
 <div class="grid-4_sm-1_md-2">
 <RouterLink to="/components/Button">
@@ -27,6 +28,7 @@
 </div>
 
 ## Form
+
 <br>
 <div class="grid-2_sm-1_md-2">
 <RouterLink to="/components/Input">
@@ -46,6 +48,26 @@
     </template>
     <div class="component">
       <b-Textarea placeholder="Textarea"></b-Textarea>
+    </div>
+  </b-card>
+</RouterLink>
+<RouterLink to="/components/Switch" style="margin-left: 10px;">
+  <b-card class="component_card col">
+    <template v-slot:header>
+    Switch
+    </template>
+    <div class="component">
+      <b-switch v-model="switch"></b-switch>
+    </div>
+  </b-card>
+</RouterLink>
+<RouterLink to="/components/Checkbox" style="margin-left: 10px;">
+  <b-card class="component_card col">
+    <template v-slot:header>
+    Checkbox
+    </template>
+    <div class="component">
+      <b-Checkbox v-model="switch"></b-Checkbox>
     </div>
   </b-card>
 </RouterLink>
@@ -77,6 +99,25 @@
             </b-flex>
           </template>
         </b-nav>
+  </b-card>
+</RouterLink>
+<RouterLink to="/components/Nav Panel" class="col">
+  <b-card class="component_card">
+    <template v-slot:header>
+    Navigation Panel
+    </template>
+  <b-card width="250px">
+  <template #prepend>
+     <b-nav-panel v-model="navPanel" style="min-width: 150px">
+            <template #header>
+              <h4>Settings</h4>
+            </template>
+            <template #1> Appearance </template>
+            <template #2> Account </template>
+            <template #3> Security </template>
+     </b-nav-panel> 
+     </template>
+     </b-card>
   </b-card>
 </RouterLink>
 <RouterLink to="/components/Card" class="col">
@@ -129,6 +170,7 @@
 </div>
 
 ## Layout
+
 <br>
 <div class="grid">
 <RouterLink to="/components/App"  class="col">
@@ -178,19 +220,23 @@
 import { h, ref } from 'vue'
 
 export default {
- data:()=>{
-   return {
-     tabs: [
-        { name: "Music", value: "music" },
-        { name: "Photos", value: "photo"},
-        { name: "Videos", value: "videos" },
-      ],
-      tabIndex:1,
-      sidebar:true
-   }
- }
+data:()=>{
+return {
+tabs: [
+{ name: "Music", value: "music" },
+{ name: "Photos", value: "photo"},
+{ name: "Videos", value: "videos" },
+],
+tabIndex:1,
+navPanel : 1,
+switch: true,
+checkbox:true,
+sidebar:true
+}
+}
 }
 </script>
+
 <style>
   .component_card .component {
     margin: auto;
