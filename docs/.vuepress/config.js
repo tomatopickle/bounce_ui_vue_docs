@@ -59,34 +59,9 @@ module.exports = {
         href: "https://cdn.jsdelivr.net/npm/@mdi/font@6.4.95/css/materialdesignicons.min.css",
       },
     ],
-    ["link", { rel: "manifest", href: "/site.webmanifest" }],
-    [
-      "link",
-      {
-        rel: "apple-touch-icon",
-        sizes: "180x180",
-        href: "/favicons/apple-touch-icon.png",
-      },
-    ],
-    [
-      "link",
-      {
-        rel: "icon",
-        type: "image/png",
-        sizes: "32x32",
-        href: "/favicons/favicon-32x32.png",
-      },
-    ],
-    [
-      "link",
-      {
-        rel: "icon",
-        type: "image/png",
-        sizes: "16x16",
-        href: "/favicons/favicon-16x16.png",
-      },
-    ],
-    ["link", { rel: "shortcut icon", href: "/favicon.ico" }],
+    ['link', { rel: 'manifest', href: '/bounce_ui_vue_docs/manifest.webmanifest' }],
+    ['meta', { name: 'theme-color', content: '#276ef1' }], 
+    ["link", { rel: "shortcut icon", href: "/bounce_ui_vue_docs/favicon.ico" }], 
   ],
   themeConfig: {
     logo: "/images/logo.png",
@@ -112,6 +87,12 @@ module.exports = {
           },
         },
       },
-    ],
+    ], 
+    [
+      '@vuepress/pwa',
+      {
+        skipWaiting: true, 
+      }
+    ]
   ],
 };

@@ -31,8 +31,8 @@
 
 <br>
 <div class="grid-2_sm-1_md-2">
-<RouterLink to="/components/Input">
-  <b-card class="component_card col">
+<RouterLink to="/components/Input" class="col">
+  <b-card class="component_card">
     <template v-slot:header>
     Input
     </template>
@@ -41,7 +41,7 @@
     </div>
   </b-card>
 </RouterLink>
-<RouterLink to="/components/Textarea" style="margin-left: 10px;">
+<RouterLink to="/components/Textarea" class="col">
   <b-card class="component_card col">
     <template v-slot:header>
     Textarea
@@ -51,7 +51,7 @@
     </div>
   </b-card>
 </RouterLink>
-<RouterLink to="/components/Switch" style="margin-left: 10px;">
+<RouterLink to="/components/Switch" class="col">
   <b-card class="component_card col">
     <template v-slot:header>
     Switch
@@ -61,7 +61,7 @@
     </div>
   </b-card>
 </RouterLink>
-<RouterLink to="/components/Checkbox" style="margin-left: 10px;">
+<RouterLink to="/components/Checkbox" class="col">
   <b-card class="component_card col">
     <template v-slot:header>
     Checkbox
@@ -81,7 +81,7 @@
     <template v-slot:header>
     SideBar
     </template>
-    <div class="component">
+    <div class="component" style="width:100%">
      A sidebar is an element that comes from the left or right side of an application
     </div>
   </b-card>
@@ -106,18 +106,9 @@
     <template v-slot:header>
     Navigation Panel
     </template>
-  <b-card width="250px">
-  <template #prepend>
-     <b-nav-panel v-model="navPanel" style="min-width: 150px">
-            <template #header>
-              <h4>Settings</h4>
-            </template>
-            <template #1> Appearance </template>
-            <template #2> Account </template>
-            <template #3> Security </template>
-     </b-nav-panel> 
-     </template>
-     </b-card>
+     <div class="component" style="width:100%">
+A navigation panel is a sidebar that has links to different sections of the same component. It's to be used to show a lot of content in a small space. 
+     </div>
   </b-card>
 </RouterLink>
 <RouterLink to="/components/Card" class="col">
@@ -151,7 +142,7 @@
   <template v-slot:header>
   Modal
   </template>
-  <div class="component">
+  <div class="component" style="width:100%">
    A modal is an overlay that requires the user to interact with it and is designed to elicit a response from the user
   </div>
 </b-card>
@@ -161,7 +152,7 @@
   <template v-slot:header>
   Icon
   </template>
-  <div class="component">
+  <div class="component" style="width:100%">
    The icon element is an important part of Bounce UI and is used in multiple components.
   </div>
 </b-card>
