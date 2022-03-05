@@ -1,6 +1,6 @@
-import bounce_ui from './public/dist/bounce_ui.umd.js';
+import bounce_ui from 'bounce-ui-vue';
 export default ({
-    app, router, siteData
+    app
 }) => {
     app.use(bounce_ui);
 }
